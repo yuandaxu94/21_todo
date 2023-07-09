@@ -1,0 +1,14 @@
+.todo-app-container {
+    box-sizing: border-box;
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid black;
+    margin: 10px auto;
+    padding: 20px;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.todo-app-container h1 {
+    text-align: center;
+}

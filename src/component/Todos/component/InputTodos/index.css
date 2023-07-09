@@ -1,0 +1,8 @@
+.todo-input-container {
+    text-align: center;
+}
+
+.todo-input-container input[type="text"] {
+    width: 600px;
+    margin-right: 20px;
+}
