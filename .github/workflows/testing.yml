@@ -1,0 +1,13 @@
+name: Unite test
+
+on: [pull_request]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: install
+        run: npm install
+      - name: test
+        run: npm test

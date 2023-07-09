@@ -1,8 +1,5 @@
-import {useEffect, useState} from "react";
-
 import TodoList from "./component/TodoList";
 import InputTodos from "./component/InputTodos";
-import {getTodosRequest} from "../../utils";
 import './index.css'
 import {useFetchTodos} from "../../hooks/useFetchTodos";
 
